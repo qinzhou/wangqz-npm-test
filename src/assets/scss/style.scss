@@ -1,0 +1,38 @@
+.page-wrap {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 180px;
+  ul {
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+    li {
+      float: left;
+      color: #1e5a6b;
+      padding: 1px 10px;
+      margin: 0 5px;
+      border-radius: 50%;
+      user-select: none;
+      border: 1px solid transparent;
+    }
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .hover {
+    &:hover {
+      border-color: #7ba6b3;
+    }
+  }
+  .li-page {
+    line-height: 1.5;
+    cursor: pointer;
+    color: #1e5a6b;
+    &:hover {
+      color: #7ba6b3;
+    }
+  }
+  .active {
+    border-color: #246c81;
+  }
+}
